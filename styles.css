@@ -1,0 +1,27 @@
+#cmdNotification {
+  display: none;
+  position: fixed;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 15px;
+  z-index: 10000;
+  font-size: 18px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+.cmd-notify-icon {
+  font-size: 24px;
+}
+.cmd-notify-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.cmd-notify-description {
+  font-size: 14px;
+  color: #aaa;
+}
